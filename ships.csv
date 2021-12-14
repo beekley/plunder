@@ -1,0 +1,4 @@
+name,class,realm,power,toughness,text,slot1,slot2,slot3,slot4
+ferry,rowboat,Baylands,0,1,,d_c,,,
+fishingboat,sloop,Baylands,0,2,,d_c,h_c,,
+whaler,sloop,Baylands,1,2,,d_c,h_c,,
