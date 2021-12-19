@@ -1,6 +1,6 @@
 require 'squib'
 
-data = Squib.csv file: 'ships.csv'
+data = Squib.csv file: '../cardData/ships.csv'
 
 Squib::Deck.new cards: data['name'].size, layout: 'economy.yml' do
   background color: 'white'
