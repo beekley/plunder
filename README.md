@@ -38,3 +38,4 @@ rake
 * Write documentation.
 * Set up pipline to Tabletop Simulator.
 * Come up with title.
+* Create a first "release" zip.
