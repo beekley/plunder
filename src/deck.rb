@@ -12,7 +12,13 @@ Squib::Deck.new cards: ship_data['title'].size, layout: 'src/ship.yml' do
 
   # Descriptive elements.
   text str: ship_data['title'], layout: 'title'
-  text str: ship_data['description'], layout: 'description'
+  text str: ship_data['abilities'].map.with_index { |x, i|
+      "abilities: #{x}."
+    },
+    layout: 'abilities'
+  text str: ship_data['description'].map.with_index { |x, i|
+        "\"#{x}.\""
+    }, layout: 'description'
   # We have to use `map` here to combine the "power" column with the "toughness" column.
   text str: ship_data['power'].map.with_index { |x, i|
       # "power/toughness".

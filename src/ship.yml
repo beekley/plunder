@@ -19,11 +19,13 @@ abilities:
   y: 725
   width: 475
   height: 200
+  ellipsize: :autoscale
 description:
   x: 275
   y: 950
   width: 375
   height: 100
+  ellipsize: :autoscale
   font_size: 10
   font: italic
 statline:
