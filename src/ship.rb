@@ -4,7 +4,7 @@ require 'game_icons'
 ship_data = Squib.csv file: 'cardData/ships.csv'
 
 # Generate ship cards.
-Squib::Deck.new cards: ship_data['title'].size, layout: 'src/ship.yml' do
+ship_fronts = Squib::Deck.new cards: ship_data['title'].size, layout: 'src/ship.yml' do
   # Card layout.
   background color: 'white'
   rect layout: 'cut'
@@ -40,5 +40,5 @@ Squib::Deck.new cards: ship_data['title'].size, layout: 'src/ship.yml' do
       layout: "bonus#{slot_i}"
    end
 
-  save_png
+  save_png prefix: 'ship_', dir: '_output/ships'
 end
