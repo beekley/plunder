@@ -18,7 +18,7 @@ Squib::Deck.new cards: ship_data['title'].size, layout: 'src/ship.yml' do
       # "power/toughness".
       "#{x}/#{ship_data['toughness'][i]}"
     },
-    layout: 'snark'
+    layout: 'statline'
 
   # Slots.
   for slot_i in 1..5 do

@@ -14,16 +14,24 @@ art:
   y: 225
   width: 475
   height: 475
-description:
+abilities:
   x: 275
   y: 725
   width: 475
   height: 200
-snark:
+description:
   x: 275
   y: 950
-  width: 475
+  width: 375
   height: 100
+  font_size: 10
+  font: italic
+statline:
+  x: 650
+  y: 950
+  width: 100
+  height: 100
+  align: :right
 bonus1:
   x: 75
   y: 75

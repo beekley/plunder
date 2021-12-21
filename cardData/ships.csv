@@ -1,4 +1,4 @@
-title,class,realm,description,power,toughness,slot1_location,slot1_type,slot2_location,slot2_type,slot3_location,slot3_type,slot4_location,slot4_type,slot5_location,slot5_type
-Ferry,rowboat,Baylands,,0,1,deck,common,,,,,,,,
-Fishing Boat,sloop,Baylands,,0,2,deck,common,hold,common,,,,,,
-Whaler,sloop,Baylands,,1,2,deck,common,hold,common,,,,,,
+title,realm,description,abilities,power,toughness,slot1_location,slot1_type,slot2_location,slot2_type,slot3_location,slot3_type,slot4_location,slot4_type,slot5_location,slot5_type
+Ferry,Baylands,rowboat,none,0,1,deck,common,,,,,,,,
+Fishing Boat,Baylands,sloop,none,0,2,deck,common,hold,common,,,,,,
+Whaler,Baylands,sloop,none,1,2,deck,common,hold,common,,,,,,
