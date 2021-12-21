@@ -44,6 +44,14 @@ bonus4:
 bonus5:
   extends: bonus4
   y: += 198
+build:
+  x: 75
+  y: 1025
+  width: 675
+  height: 25
+  font_size: 5
+  align: right
+  valign: bottom
 
 # The "cut line", without rounded corners
 cut:
