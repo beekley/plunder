@@ -8,6 +8,7 @@ title:
   width: 475
   height: 125
   font_size: 16
+  ellipsize: :autoscale
   align: :center
   valign: 'MIDDLE'
 art:

@@ -7,8 +7,8 @@ ship_data = Squib.csv file: 'cardData/ships.csv'
 Squib::Deck.new cards: ship_data['title'].size, layout: 'src/ship.yml' do
   # Card layout.
   background color: 'white'
-  rect layout: 'cut' # cut line as defined by TheGameCrafter
-  rect layout: 'safe' # safe zone as defined by TheGameCrafter
+  rect layout: 'cut'
+  rect layout: 'safe' 
   text str: "last built: #{Time.now}", layout: 'build'
   svg data: ship_data['icon'].map{|x|
       GameIcons.get(x).recolor(fg: '333', bg: 'FFF').string
@@ -21,9 +21,7 @@ Squib::Deck.new cards: ship_data['title'].size, layout: 'src/ship.yml' do
       "abilities: #{x}."
     },
     layout: 'abilities'
-  text str: ship_data['description'].map.with_index { |x, i|
-        "\"#{x}.\""
-    }, layout: 'description'
+  text str: ship_data['description'], layout: 'description'
   # We have to use `map` here to combine the "power" column with the "toughness" column.
   text str: ship_data['power'].map.with_index { |x, i|
       # "power/toughness".
