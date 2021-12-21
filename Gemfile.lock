@@ -9,6 +9,7 @@ GEM
       cairo (>= 1.16.2)
       glib2 (= 3.4.9)
     classy_hash (1.0.0)
+    game_icons (0.45.0.20210930)
     gdk_pixbuf2 (3.4.9)
       gio2 (= 3.4.9)
     gio2 (3.4.9)
@@ -58,6 +59,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  game_icons
   squib
 
 BUNDLED WITH

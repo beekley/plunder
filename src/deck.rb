@@ -1,4 +1,5 @@
 require 'squib'
+require 'game_icons'
 
 ship_data = Squib.csv file: 'cardData/ships.csv'
 
@@ -9,6 +10,10 @@ Squib::Deck.new cards: ship_data['title'].size, layout: 'src/ship.yml' do
   rect layout: 'cut' # cut line as defined by TheGameCrafter
   rect layout: 'safe' # safe zone as defined by TheGameCrafter
   text str: "last built: #{Time.now}", layout: 'build'
+  svg data: ship_data['icon'].map{|x|
+      GameIcons.get(x).recolor(fg: '333', bg: 'FFF').string
+    },
+    layout: 'art'
 
   # Descriptive elements.
   text str: ship_data['title'], layout: 'title'

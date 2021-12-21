@@ -1,4 +1,4 @@
-title,realm,description,abilities,power,toughness,slot1_location,slot1_type,slot2_location,slot2_type,slot3_location,slot3_type,slot4_location,slot4_type,slot5_location,slot5_type
-Ferry,Baylands,A small rowboat,none,0,1,deck,common,,,,,,,,
-Fishing Boat,Baylands,A single-masted sloop with nets for fishing,none,0,2,deck,common,hold,common,,,,,,
-Whaler,Baylands,A twin-masted schooner,none,1,3,deck,common,hold,common,,,,,,
+title,realm,icon,description,abilities,power,toughness,slot1_location,slot1_type,slot2_location,slot2_type,slot3_location,slot3_type,slot4_location,slot4_type,slot5_location,slot5_type
+Ferry,Baylands,wood-canoe,A small rowboat,none,0,1,deck,common,,,,,,,,
+Fishing Boat,Baylands,small-fishing-sailboat,"A small, twin-masted ship with nets for fishing",none,0,2,deck,common,hold,common,,,,,,
+Whaler,Baylands,shooner-sailboat,A twin-masted schooner,none,1,3,deck,common,hold,common,,,,,,
