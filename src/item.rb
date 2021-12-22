@@ -17,10 +17,7 @@ item_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
 
   # Descriptive elements.
   text str: data['title'], layout: 'title'
-  text str: data['abilities'].map.with_index { |x, i|
-      "abilities: #{x}."
-    },
-    layout: 'abilities'
+  text str: data['abilities'], layout: 'abilities'
   text str: data['description'], layout: 'description'
   # We have to use `map` here to combine the "power" column with the "toughness" column.
   text str: data['power'].map.with_index { |x, i|
@@ -38,7 +35,7 @@ item_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
     layout: 'bonus1'
   text str: data['hold'].map { |x|
       unless x.empty?
-        'hold'
+        "hold\n(inactive)"
       end
     },
     layout: 'bonus2'
