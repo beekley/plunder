@@ -40,6 +40,5 @@ If you use VSCode, you can install the "Run on Save" extension to build cards wh
 
 * Write rules.
 * Come up with title.
-* Complete one full set of cards.
 * Set up pipline to Tabletop Simulator.
 * Create a first "release" zip.

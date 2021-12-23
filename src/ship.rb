@@ -38,4 +38,6 @@ ship_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
    end
 
   save_png prefix: 'ship_', dir: '_output/ships'
+  # TTS maximum size.
+  save_sheet prefix: 'ship_sheet_', dir: '_output/tts', columns: 10, rows: 7
 end

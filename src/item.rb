@@ -4,7 +4,7 @@ require 'game_icons'
 data = Squib.csv file: 'cardData/items.csv'
 
 # Generate item cards.
-item_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' do
+item_fronts = Squib::Deck.new cards: data.nrows, layout: 'src/ship.yml' do
   # Card layout.
   background color: 'white'
   rect layout: 'cut'
@@ -39,6 +39,7 @@ item_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
       end
     },
     layout: 'bonus2'
+  # Types.
   text str: data['common'].map { |x|
       unless x.empty?
         'common'
@@ -57,8 +58,9 @@ item_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
       end
     },
     layout: 'bonus5'
-  
-  # Types.
 
+  # TODO: break these out to a helper function and separate by rake command.
   save_png prefix: 'item_', dir: '_output/items'
+  # TTS maximum size.
+  save_sheet prefix: 'item_sheet_', dir: '_output/tts', columns: 10, rows: 7
 end
