@@ -84,11 +84,7 @@ If the player ship's `power` is greater than the target ship's `toughness`, the 
 
 ### End of the Game
 
-Describe the end of game conditions.
-
-### Winning the Game
-
-Describe how to win a game.
+Some cards have a `victory point` value as part of their ability. The game ends when one player has outfitted a ship with 10 victory points.
 
 ## Optional: Example Turn or Hand
 
