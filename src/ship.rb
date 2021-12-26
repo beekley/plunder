@@ -38,6 +38,14 @@ ship_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
    end
 
   save_png prefix: 'ship_', dir: '_output/ships'
-  # TTS maximum size.
-  save_sheet prefix: 'ship_sheet_', dir: '_output/tts', columns: 10, rows: 7
+  # Create a separate sheet for reach `realm` deck.
+  realms = {}; data['realm'].each_with_index{ |t, i| (realms[t] ||= []) << i}
+  realms.uniq.each{ |r|
+    save_sheet prefix: "ship_#{r[0]}_sheet_",
+      range: r[1],
+      dir: '_output/tts',
+      # TTS maximum size.
+      columns: 10,
+      rows: 7
+  }
 end
