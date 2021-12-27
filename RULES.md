@@ -5,17 +5,15 @@
 
 You are guardian spirits of the sea, and you have failed. Humans have made it past you and are exploiting the lands you swore to protect. With each tree they fell and stone they carve, spirits of the land are being stolen from their homes and taken back to wherever these humans come from. Redeem yourself and bring those spirits home.
 
-**Objective**: Reclaim the [things] from the humans.
+**Objective**: Reclaim the land spirits from the humans and be the first to earn enough `spirit points`.
 
 ## Components
 
-An itemized listing of all the game components and their counts if appropriate. You may want to include a short description of what they’re used for. Sometimes pictures help if there are lots of different bits.
-
-There are 3 ship decks, 1 item deck, and X starting `spirit` cards.
+There are 3 `ship` card decks, 1 `item` card deck, and 6 starting `spirit` cards.
 
 ### Ship Cards
 
-These cards are split into decks that represent ships for a specific `region`:
+These cards are split into decks that represent ships for a specific `region`, shown on the back side of the cards:
 
 * Baylands ships
 * Deepwater ships
@@ -27,8 +25,6 @@ The front-side of these cards shows their details, including:
 * Any abilities it has.
 * Its `power`/`toughness`, before any items are added to it.
 
-The back-side shows which `region` the ship is from.
-
 ### Item cards
 
 These cards represent items that can be used to outfit a ship. The front-side of these cards shows their details, including:
@@ -37,7 +33,7 @@ These cards represent items that can be used to outfit a ship. The front-side of
 * Any abilities it has.
 * How much `power`/`toughness` that this item adds to the ship.
 
-The back-side shows which slot it can be used, and what type it is. If it displays multiple options, then it satisfies any of them.
+The back-side shows in which `location` it can be used, and what `type` it is. If it displays multiple options, then it satisfies any of them.
 
 ## Setup
 
@@ -84,8 +80,29 @@ If the player ship's `power` is greater than the target ship's `toughness`, the 
 
 ### End of the Game
 
-Some cards have a `victory point` value as part of their ability. The game ends when one player has outfitted a ship with 10 victory points.
+Some cards have a `spirit point` value as part of their ability. The game ends when one player has outfitted a ship with 10 `spirit point`.
 
 ## Optional: Example Turn or Hand
 
-How is a turn or hand played? Pictures relevant?
+TODO: give an example of an outfitted ship and calculate its power/toughness.
+
+## Glossary
+
+Definition of key terms (TODO: fill out):
+
+* `ship`: 
+    * `region`: 
+    * `spirit`: 
+* `item`: 
+* `slots`: 
+  * `location`: 
+    * `deck`: 
+    * `hold`: 
+  * `type`: 
+    * `common`: 
+    * `military`: 
+    * `arcane`: 
+    * `exotic`: 
+* `power`: 
+* `toughness`: 
+* `spirit point`: 
