@@ -35,6 +35,7 @@ statline:
   y: 950
   width: 100
   height: 100
+  font_size: 16
   align: :right
 bonus1:
   x: 75
