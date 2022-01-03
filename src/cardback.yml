@@ -1,0 +1,43 @@
+# Copied from the Hand default layout, since I didn't see a good way to inherit from a
+# entire layout, only per-element.
+# https://squib.readthedocs.io/en/v0.18.0/layouts.html#hand-yml
+# https://github.com/andymeneely/squib/tree/dev/lib/squib/builtin/layouts
+title:
+  x: 0
+  y: 75
+  width: 750
+  height: 125
+  font_size: 24
+  color: 'white'
+  ellipsize: :autoscale
+  align: :center
+  valign: 'MIDDLE'
+art:
+  x: 175
+  y: 275
+  width: 475
+  height: 475
+build:
+  x: 75
+  y: 1025
+  width: 675
+  height: 25
+  font_size: 5
+  align: right
+  valign: bottom
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3
