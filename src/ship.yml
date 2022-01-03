@@ -25,16 +25,17 @@ abilities:
 description:
   x: 275
   y: 950
-  width: 375
+  width: 325
   height: 100
   ellipsize: :autoscale
   font_size: 10
   font: italic
 statline:
-  x: 650
+  x: 600
   y: 950
-  width: 100
+  width: 150
   height: 100
+  ellipsize: :autoscale
   font_size: 16
   align: :right
 bonus1:

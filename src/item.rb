@@ -60,7 +60,7 @@ item_fronts = Squib::Deck.new cards: data.nrows, layout: 'src/ship.yml' do
     layout: 'bonus5'
 
   # TODO: break these out to a helper function and separate by rake command.
-  save_png prefix: 'item_', dir: '_output/items'
+  save_png prefix: 'item_', dir: '_output/cards/items'
   # TTS maximum size.
-  save_sheet prefix: 'item_sheet_', dir: '_output/tts', columns: 10, rows: 7
+  save_sheet prefix: 'item_sheet_', dir: '_output/sheets', columns: 10, rows: 7
 end
