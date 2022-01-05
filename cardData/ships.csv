@@ -1,5 +1,5 @@
 "qty","title","realm","icon","description","abilities","power","toughness","slot1_location","slot1_type","slot2_location","slot2_type","slot3_location","slot3_type","slot4_location","slot4_type","slot5_location","slot5_type"
-"6","Spirit","Spirit","spectre","A guardian spirit of the waters","Do not discard if defeated in combat","3","6","","","","","","","","","",""
+"6","Spirit","Spirit","spectre","A guardian spirit of the waters","Do not discard if defeated in combat","d6+3","6","","","","","","","","","",""
 "2","Ferry","Baylands","sailboat","A small boat for short-distance travel","","0","1","hold","common","","","","","","","",""
 "5","Fishing Boat","Baylands","sailboat","A small ship dotted with fishing lines","","0","2","deck","common","","","","","","","",""
 "3","Ocean Fisher","Baylands","small-fishing-sailboat","A small, twin-masted ship with nets for fishing","","0","3","deck","common","hold","common","","","","","",""
