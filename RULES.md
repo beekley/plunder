@@ -44,11 +44,18 @@ To set up the game:
 
 ## How to Play
 
-During the game, players take turns outfitting their ship and attacking other ships,.
+During the game, players take turns outfitting their ship and attacking other ships.
+
+### Pre-combat
+
+At the beginning of their turn, a player can do the following:
+
+1. Perform any "outside of combat" abilities described on a card in their hand.
+1. Discard any three cards in the hand. If they do this, search the item deck for any card that has a type and location as any one of the discarded cards. Put this card into your hand. 
 
 ### Outfitting a Ship
 
-At the start of a player's turn, they can attach any items they have into slots on their ship:
+Next, a player must pick and outfit a ship:
 
 1. Place a ship in front of the player. This can be the starting `spirit` card.
 1. For each `deck` slot on the ship card, place up to one item that says `deck` above the ship card.
