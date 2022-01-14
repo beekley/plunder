@@ -10,3 +10,4 @@ A list of ideas for the game. There are no wrong answers. If implemented, check 
 - [ ] Have multiple win conditions, so players can still win even if they "behind" in some way.
 - [ ] Limit the number of cards a player can have in thier stash.
 - [ ] Make the game co-op, where players control parts of the ship during combat. Like Captain Sonar.
+- [ ] Every item can be stored in the hold. Hold splaces are kept face-down until after combat.

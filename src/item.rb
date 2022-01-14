@@ -33,31 +33,31 @@ item_fronts = Squib::Deck.new cards: data.nrows, layout: 'src/ship.yml' do
       end
     },
     layout: 'bonus1'
-  text str: data['hold'].map { |x|
-      unless x.empty?
-        "hold\n(inactive)"
-      end
-    },
-    layout: 'bonus2'
   # Types.
   text str: data['common'].map { |x|
       unless x.empty?
         'common'
       end
     },
-    layout: 'bonus3'
+    layout: 'bonus2', color: :green
   text str: data['military'].map { |x|
       unless x.empty?
         'military'
       end
     },
-    layout: 'bonus4'
+    layout: 'bonus3', color: :red
   text str: data['arcane'].map { |x|
       unless x.empty?
         'arcane'
       end
     },
-    layout: 'bonus5'
+    layout: 'bonus4', color: :purple
+  text str: data['exotic'].map { |x|
+      unless x.empty?
+        "exotic"
+      end
+    },
+    layout: 'bonus5', color: :orange
 
   # TODO: break these out to a helper function and separate by rake command.
   save_png prefix: 'item_', dir: '_output/cards/items'

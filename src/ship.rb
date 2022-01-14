@@ -31,9 +31,17 @@ ship_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
     text str:
       data["slot#{slot_i}_location"].map.with_index { |x, i|
         unless x.to_s.strip.empty?
-          "#{x} slot\n#{data["slot#{slot_i}_type"][i]}"
+          location = x
+          type = data["slot#{slot_i}_type"][i]
+          color = 'black'
+          if type == 'common' then color = 'green' end
+          if type == 'military' then color = 'red' end
+          if type == 'arcane' then color = 'purple' end
+          if type == 'exotic' then color = 'orange' end
+          "#{location} slot\n<span fgcolor=\"#{color}\">#{type}</span>"
         end
       },
+      markup: true,
       layout: "bonus#{slot_i}"
    end
 
