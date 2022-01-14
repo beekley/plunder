@@ -22,7 +22,7 @@ ship_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
   # We have to use `map` here to combine the "power" column with the "toughness" column.
   text str: data['power'].map.with_index { |x, i|
       # "power/toughness".
-      "#{x}/#{data['toughness'][i]}"
+      "#{x}/#{data['toughness'][i].to_s}"
     },
     layout: 'statline'
 
