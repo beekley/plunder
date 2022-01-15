@@ -32,7 +32,7 @@ item_fronts = Squib::Deck.new cards: data.nrows, layout: 'src/ship.yml' do
         'deck'
       end
     },
-    layout: 'bonus1'
+    layout: 'bonus1', color: :brown
   # Types.
   text str: data['common'].map { |x|
       unless x.empty?
