@@ -63,4 +63,8 @@ item_fronts = Squib::Deck.new cards: data.nrows, layout: 'src/ship.yml' do
   save_png prefix: 'item_', dir: '_output/cards/items'
   # TTS maximum size.
   save_sheet prefix: 'item_sheet_', dir: '_output/sheets', columns: 10, rows: 7
+  # Printable sheet fronts.
+  save_pdf file: "item_printable.pdf",
+      dir: '_output/print',
+      trim: 37.5
 end

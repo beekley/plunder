@@ -14,7 +14,7 @@
 "2","Lumber","wood-beam","","2 Spirit Points","0","0","","","x","x","","",""
 "2","Glaive","trefoil-shuriken","","","2d6","0","x","","x","","x","x",""
 "2","Skullpiercer","william-tell-skull","A large bolt with deadly accuracy","1 Spirit Point","6","0","x","","x","","x","x",""
-"2","Fire Harpoon","flaming-arrow","A flaming arrow burning without fuel","","2d6-2","-1","x","","x","","","x",""
+"2","Fire Harpoon","flaming-arrow","A flaming arrow burning without fuel","Discard one deck item from the target ship.","d6","-1","x","","x","","","x",""
 "2","Ice Spear","ice-spear","An ever-frozen arrow","The target ship's has -2 toughness.","d6","-1","x","","x","","","x",""
 "2","Driftwood Trident","magic-trident","","Discard any number of item cards. Add their power this combat only","?","?","x","","x","","","x",""
 "2","Bleeding Heat","bleeding-heart","","3 Spirit Points","0","0","","","x","","","x",""

@@ -60,7 +60,7 @@ bonus5:
   y: += 198
 build:
   x: 75
-  y: 1025
+  y: 1050
   width: 675
   height: 25
   font_size: 5

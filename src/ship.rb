@@ -57,5 +57,11 @@ ship_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
       # TTS maximum size.
       columns: 10,
       rows: 7
+      
+    # Printable sheet backs.
+    save_pdf file: "ship_#{r[0]}_printable.pdf",
+      range: r[1],
+      dir: '_output/print',
+      trim: 37.5
   }
 end
