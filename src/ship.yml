@@ -30,6 +30,14 @@ description:
   ellipsize: :autoscale
   font_size: 10
   font: italic
+value:
+  x: 225
+  y: 950
+  width: 250
+  height: 100
+  ellipsize: :autoscale
+  font_size: 16
+  align: :left
 statline:
   x: 500
   y: 950

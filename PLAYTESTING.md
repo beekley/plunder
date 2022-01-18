@@ -37,3 +37,13 @@
   * Woud like more agency, such as spirit powers.
   * Felt bad when you lost and had no ability to affect the outcome.
   * There are nugs of fun. I like drawing items to build the ships.
+
+# 2022-01-17
+
+### Did it work?
+  * Yes.
+  * But we were still using starting spirit cards after 4+ turns.
+  * We had huge hands of items and ships and nothing to do with them.
+
+### Was it fun?
+  * Not yet.

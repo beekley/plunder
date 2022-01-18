@@ -46,12 +46,14 @@ To set up the game:
 
 During the game, players take turns outfitting their ship and attacking other ships.
 
-### Pre-combat
+### Trade
 
-At the beginning of their turn, a player can do the following:
+At the beginning of their turn, a player can optionally trade cards in their hand:
 
-1. Perform any "outside of combat" abilities described on a card in their hand.
-1. Discard any three cards in the hand. If they do this, search the item deck for any card that has a type and location as any one of the discarded cards. Put this card into your hand. 
+1. Pick a deck, either the `item` deck or any `region` deck.
+1. Reveal the top three cards of that deck.
+1. Discard any number of cards from their hand and sum their total `value`.
+1. Take any number of revealed cards with a total `value` less than or equal to **half** the total value of discarded cards.
 
 ### Outfitting a Ship
 
@@ -66,12 +68,12 @@ Next, a player must pick and outfit a ship:
 A player can find and attack another ship from one of the `region` decks:
 
 1. Pick a `region` deck to attack.
-1. Draw and reveal the top three `ship` cards from the deck.
+1. Reveal the top three `ship` cards from the deck.
   - If there are no more cards in the deck, shuffle the discard pile for the `region` and draw from there.
 1. Pick one of the `ship` cards to target, while discarding the rest.
-1. For each `deck` slot on the targetted ship, search the `items` deck until you find a card that matches the `slot`'s `location` and `type`. Reveal the card and place it above the targetted ship.
-1. For each `hold` slot on the targetted ship, search the `items` deck until you find a card that matches the `slot`'s `location` and `type`. Keep the card face down and place it below the targetting ship.
-1. If you wish to attack, see the next section. Otherwise, discard each of the target ship's cards and your turn is over.
+1. For each `deck` slot on the targetted ship, search the `items` deck until they find a card that matches the `slot`'s `location` and `type`. Reveal the card and place it above the targetted ship.
+1. For each `hold` slot on the targetted ship, search the `items` deck until they find a card that matches the `slot`'s `location` and `type`. Keep the card face down and place it below the targetting ship.
+1. If the player wishes to attack, see the next section. Otherwise, discard each of the target ship's cards and their turn is over.
 
 #### Which Ship Won?
 

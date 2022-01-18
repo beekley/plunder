@@ -18,7 +18,12 @@ item_fronts = Squib::Deck.new cards: data.nrows, layout: 'src/ship.yml' do
   # Descriptive elements.
   text str: data['title'], layout: 'title'
   text str: data['abilities'], layout: 'abilities'
-  text str: data['description'], layout: 'description'
+  # TODO Figure out where to put this. Flavor text is lower priority than functional text.
+  # text str: data['description'], layout: 'description'
+  text str: data['value'].map.with_index { |x, i|
+      if x != "" then "Value: #{x}g" end
+    },
+    layout: 'value'
   # We have to use `map` here to combine the "power" column with the "toughness" column.
   text str: data['power'].map.with_index { |x, i|
       # "power/toughness".
