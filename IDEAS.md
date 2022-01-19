@@ -11,3 +11,5 @@ A list of ideas for the game. There are no wrong answers. If implemented, check 
 - [ ] Limit the number of cards a player can have in thier stash.
 - [ ] Make the game co-op, where players control parts of the ship during combat. Like Captain Sonar.
 - [ ] Every item can be stored in the hold. Hold splaces are kept face-down until after combat.
+- [ ] If a player fails to destroy a ship, then the ship is set aside. Any player can choose to attack that ship instead.
+- [ ] If a player fails to destroy a ship, the other player can attack that ship immediately, which has any damage already dealt to it.

@@ -47,3 +47,19 @@
 
 ### Was it fun?
   * Not yet.
+
+# 2022-01-18
+
+### Did it work?
+  * It didn't feel broken, but there was a lot of "bad luck" with the dice rolls and draws. Dice rolls felt hopeless.
+  * Didn't play to completion after like 40m of playing.
+  * Knowing how to compare a ship's power vs toughness was confusing.
+  * Colors made it easy to understand. Maybe bigger text or icon would help too.
+  * Feels more pirate in theme than spirit.
+
+### Was it fun?
+  * Slow to get started, but agency increased over time. It was most fun when having decisions to make.
+  * Never got to the 2nd pool of ships. Maybe make the regions of ships less distributed in power level so players will always win in the 1st region and get stuff to take to the 2nd.
+  * Least fun trying to figure out the numbers and their significance.
+  * Doesn't feel like competing with other players. Which isn't a bad thing. But more interaction could be good.
+  * There may need to be a way to rubber-band and let a "losing" player catch up.
