@@ -7,6 +7,8 @@ You are guardian spirits of the sea, and you have failed. Humans have made it pa
 
 **Objective**: Reclaim the land spirits from the humans and be the first to earn enough `spirit points`.
 
+TODO: Replace with pirate theme.
+
 ## Components
 
 There are 3 `ship` card decks, 1 `item` card deck, and 6 starting `spirit` cards.
