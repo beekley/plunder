@@ -2,16 +2,16 @@ require 'squib'
 require 'game_icons'
 
 data = Squib.csv file: 'cardData/ships.csv'
+fg_color = '333'
+bg_color = 'FFF'
 
 # Generate ship cards.
 ship_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' do
   # Card layout.
   background color: 'white'
-  rect layout: 'cut'
-  rect layout: 'safe' 
   text str: "last built: #{Time.now}", layout: 'build'
   svg data: data['icon'].map{|x|
-      GameIcons.get(x).recolor(fg: '333', bg: 'FFF').string
+      GameIcons.get(x).recolor(fg: fg_color, bg: bg_color).string
     },
     layout: 'art'
 
@@ -20,16 +20,22 @@ ship_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
   text str: data['abilities'], layout: 'abilities'
   # TODO Figure out where to put this. Flavor text is lower priority than functional text.
   # text str: data['description'], layout: 'description'
-  text str: data['value'].map.with_index { |x, i|
-      if x != "" then "Value: #{x}g" end
-    },
-    layout: 'value'
+  # text str: data['value'].map.with_index { |x, i|
+  #     if x != "" then "Value: #{x}g" end
+  #   },
+  #   layout: 'value'
   # We have to use `map` here to combine the "power" column with the "toughness" column.
-  text str: data['power'].map.with_index { |x, i|
-      # "power/toughness".
-      "#{x}/#{data['toughness'][i].to_s}"
-    },
-    layout: 'statline'
+  # text str: data['power'].map.with_index { |x, i|
+  #     # "power/toughness".
+  #     "#{x}/#{data['toughness'][i].to_s}"
+  #   },
+  #   layout: 'statline'
+  text str: data['value'], layout: 'value'
+  svg data: GameIcons.get('shiny-purse').recolor(fg: fg_color, bg: bg_color).string, layout: 'value_icon'
+  text str: data['power'], layout: 'power'
+  svg data: GameIcons.get('pointy-sword').recolor(fg: fg_color, bg: bg_color).string, layout: 'power_icon'
+  text str: data['toughness'], layout: 'toughness'
+  svg data: GameIcons.get('crenulated-shield').recolor(fg: fg_color, bg: bg_color).string, layout: 'toughness_icon'
 
   # Slots.
   for slot_i in 1..5 do
@@ -51,6 +57,10 @@ ship_fronts = Squib::Deck.new cards: data['title'].size, layout: 'src/ship.yml' 
       markup: true,
       layout: "bonus#{slot_i}"
    end
+   
+  # Draw cut lines last so they're on top of other elements.
+  rect layout: 'cut'
+  rect layout: 'safe' 
 
   save_png prefix: 'ship_', dir: '_output/cards/ships'
   # Create a separate sheet for reach `realm` deck.

@@ -31,21 +31,47 @@ description:
   font_size: 10
   font: italic
 value:
-  x: 225
-  y: 950
-  width: 250
-  height: 100
-  ellipsize: :autoscale
-  font_size: 16
-  align: :left
-statline:
-  x: 500
-  y: 950
-  width: 250
-  height: 100
+  x: 150
+  y: 975
+  width: 100
+  height: 75
   ellipsize: :autoscale
   font_size: 16
   align: :right
+  valign: :middle
+value_icon:
+  x: 275
+  y: 975
+  width: 75
+  height: 75
+power:
+  x: 375
+  y: 975
+  width: 75
+  height: 75
+  ellipsize: :autoscale
+  font_size: 16
+  align: :right
+  valign: :middle
+power_icon:
+  x: 475
+  y: 975
+  width: 75
+  height: 75
+toughness:
+  x: 575
+  y: 975
+  width: 75
+  height: 75
+  ellipsize: :autoscale
+  font_size: 16
+  align: :right
+  valign: :middle
+toughness_icon:
+  x: 675
+  y: 975
+  width: 75
+  height: 75
 bonus1:
   x: 75
   y: 75

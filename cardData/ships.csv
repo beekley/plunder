@@ -1,5 +1,5 @@
 "qty","title","realm","icon","description","abilities","value","power","toughness","slot1_location","slot1_type","slot2_location","slot2_type","slot3_location","slot3_type","slot4_location","slot4_type","slot5_location","slot5_type"
-"6","Junk Ship","Starter","sail","","Discard any number of cards, add +1/+1 for each","","3","6","","","","","","","","","",""
+"6","Junk Ship","Starter","sail","","Discard any number of cards, add +1/+1 for each","n/a","3","6","","","","","","","","","",""
 "2","Ferry","Baylands","sailboat","A small boat for short-distance travel","","100","0","1","hold","common","","","","","","","",""
 "5","Fishing Boat","Baylands","sailboat","A small ship dotted with fishing lines","","100","0","1","deck","common","","","","","","","",""
 "3","Ocean Fisher","Deepwater","small-fishing-sailboat","A small, twin-masted ship with nets for fishing","","200","0","2","deck","common","hold","common","","","","","",""
