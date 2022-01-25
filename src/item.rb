@@ -33,7 +33,7 @@ item_fronts = Squib::Deck.new cards: data.nrows, layout: 'src/ship.yml' do
   #   },
   #   layout: 'statline'
   text str: data['value'], layout: 'value'
-  svg data: GameIcons.get('shiny-purse').recolor(fg: fg_color, bg: bg_color).string, layout: 'value_icon'
+  svg data: GameIcons.get('two-coins').recolor(fg: fg_color, bg: bg_color).string, layout: 'value_icon'
   text str: data['power'], layout: 'power'
   svg data: GameIcons.get('pointy-sword').recolor(fg: fg_color, bg: bg_color).string, layout: 'power_icon'
   text str: data['toughness'], layout: 'toughness'

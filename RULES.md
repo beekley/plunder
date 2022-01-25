@@ -2,16 +2,13 @@
 
 * **Requirements**: 2-??? players
 * **Duration**: ??? minutes
-
-You are guardian spirits of the sea, and you have failed. Humans have made it past you and are exploiting the lands you swore to protect. With each tree they fell and stone they carve, spirits of the land are being stolen from their homes and taken back to wherever these humans come from. Redeem yourself and bring those spirits home.
-
-**Objective**: Reclaim the land spirits from the humans and be the first to earn enough `spirit points`.
+* **Objective**: Plunder loot from other ships and be the first to earn enough `victory points`.
 
 TODO: Replace with pirate theme.
 
 ## Components
 
-There are 3 `ship` card decks, 1 `item` card deck, and 6 starting `spirit` cards.
+There are 3 `ship` card decks, 1 `item` card deck, and 6 starting `junk ship` cards.
 
 ### Ship Cards
 
@@ -42,7 +39,7 @@ The back-side shows in which `location` it can be used, and what `type` it is. I
 To set up the game:
 
 1. Shuffle each of the ship region decks separately, and the item deck together.
-1. Give each player one starting `spirit` card.
+1. Give each player one starting `junk ship` card.
 
 ## How to Play
 
@@ -61,7 +58,7 @@ At the beginning of their turn, a player can optionally trade cards in their han
 
 Next, a player must pick and outfit a ship:
 
-1. Place a ship in front of the player. This can be the starting `spirit` card.
+1. Place a ship in front of the player. This can be the starting `junk ship` card.
 1. For each `deck` slot on the ship card, place up to one item that says `deck` above the ship card.
 1. For each `hold` slot on the ship card, place up to one item that says `deck` below the ship card. Keep in mind that many items are "inactive" in the hold and cannot be used when attacking other ships.
 
@@ -91,7 +88,7 @@ If the player ship's `power` is greater than the target ship's `toughness`, the 
 
 ### End of the Game
 
-Some cards have a `spirit point` value as part of their ability. The game ends when one player has outfitted a ship with 10 `spirit point`.
+Some cards have a `victory point` value as part of their ability. The game ends when one player has 10 `spirit point`s in their hand.
 
 ## Optional: Example Turn or Hand
 
@@ -103,7 +100,7 @@ Definition of key terms (TODO: fill out):
 
 * `ship`: 
     * `region`: 
-    * `spirit`: 
+    * `junk ship`: 
 * `item`: 
 * `slots`: 
   * `location`: 
@@ -116,4 +113,4 @@ Definition of key terms (TODO: fill out):
     * `exotic`: 
 * `power`: 
 * `toughness`: 
-* `spirit point`: 
+* `victory point`: 
