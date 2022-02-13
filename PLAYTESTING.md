@@ -63,3 +63,7 @@
   * Least fun trying to figure out the numbers and their significance.
   * Doesn't feel like competing with other players. Which isn't a bad thing. But more interaction could be good.
   * There may need to be a way to rubber-band and let a "losing" player catch up.
+
+# 2022-02-13
+
+* Played a quick 4 turns and still didn't have a ship worth using. Might need to ramp faster. I want this to be playable in <1h and ideally ~30m.

@@ -41,38 +41,40 @@ To set up the game:
 1. Shuffle each of the ship region decks separately, and the item deck together.
 1. Give each player one starting `junk ship` card.
 
-## How to Play
+## How to Play a Turn
 
-During the game, players take turns outfitting their ship and attacking other ships.
+During the game, players take turns where they will reveal cards from a deck and either trade for those cards, or attack them.
 
-### Trade
+### Start of a turn
 
-At the beginning of their turn, a player can optionally trade cards in their hand:
+At the beginning of their turn, a player must:
 
-1. Pick a deck, either the `item` deck or any `region` deck.
+1. Pick a deck -- either the `item` deck or any `region` deck.
 1. Reveal the top three cards of that deck.
+
+### Option 1: Trade
+
 1. Discard any number of cards from their hand and sum their total `value`.
-1. Take any number of revealed cards with a total `value` less than or equal to **half** the total value of discarded cards.
+1. Take any number of revealed cards with a total `value` less than or equal to the total value of discarded cards.
+1. Discard any remaining cards from the table.
 
-### Outfitting a Ship
+### Option 2: Attack
 
-Next, a player must pick and outfit a ship:
+#### Outfitting the player's ship
+
+If a player wishes to attack, they must first pick and outfit their ship:
 
 1. Place a ship in front of the player. This can be the starting `junk ship` card.
 1. For each `deck` slot on the ship card, place up to one item that says `deck` above the ship card.
 1. For each `hold` slot on the ship card, place up to one item that says `deck` below the ship card. Keep in mind that many items are "inactive" in the hold and cannot be used when attacking other ships.
 
-### Attacking Other Ships
-
-A player can find and attack another ship from one of the `region` decks:
+#### Outfitting the attacked ship
 
 1. Pick a `region` deck to attack.
-1. Reveal the top three `ship` cards from the deck.
-  - If there are no more cards in the deck, shuffle the discard pile for the `region` and draw from there.
 1. Pick one of the `ship` cards to target, while discarding the rest.
 1. For each `deck` slot on the targetted ship, search the `items` deck until they find a card that matches the `slot`'s `location` and `type`. Reveal the card and place it above the targetted ship.
 1. For each `hold` slot on the targetted ship, search the `items` deck until they find a card that matches the `slot`'s `location` and `type`. Keep the card face down and place it below the targetting ship.
-1. If the player wishes to attack, see the next section. Otherwise, discard each of the target ship's cards and their turn is over.
+1. If the player still wishes to attack, see the next section. Otherwise, discard each of the target ship's cards and their turn is over.
 
 #### Which Ship Won?
 
