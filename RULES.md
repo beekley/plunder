@@ -1,10 +1,8 @@
 # Rules
 
-* **Requirements**: 2-??? players
+* **Requirements**: 2-4 players
 * **Duration**: ??? minutes
 * **Objective**: Plunder loot from other ships and be the first to earn enough `victory points`.
-
-TODO: Replace with pirate theme.
 
 ## Components
 
@@ -91,28 +89,3 @@ If the player ship's `power` is greater than the target ship's `toughness`, the 
 ### End of the Game
 
 Some cards have a `victory point` value as part of their ability. The game ends when one player has 10 `spirit point`s in their hand.
-
-## Optional: Example Turn or Hand
-
-TODO: give an example of an outfitted ship and calculate its power/toughness.
-
-## Glossary
-
-Definition of key terms (TODO: fill out):
-
-* `ship`: 
-    * `region`: 
-    * `junk ship`: 
-* `item`: 
-* `slots`: 
-  * `location`: 
-    * `deck`: 
-    * `hold`: 
-  * `type`: 
-    * `common`: 
-    * `military`: 
-    * `arcane`: 
-    * `exotic`: 
-* `power`: 
-* `toughness`: 
-* `victory point`: 

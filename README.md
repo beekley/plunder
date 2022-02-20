@@ -1,6 +1,9 @@
-# untitled-card-game
+# Plunder
 
-This is an untitled (paper) card game where players upgrade and fight ships. The rules are found in [RULES.md](/RULES.md) and the cards can be built using the steps below.
+This is a card game where players upgrade and fight ships.
+
+* Rules: [RULES.md](/RULES.md) and the cards can be built using the steps below.
+* Play: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2759806101).
 
 ## Architecture
 
