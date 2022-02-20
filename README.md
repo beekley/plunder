@@ -38,10 +38,3 @@ rake
 ```
 
 If you use VSCode, you can install the "Run on Save" extension to build cards whenever you make a change to a file.
-
-## TODO
-
-* Write rules.
-* Come up with title.
-* Create a first "release".
-* Set up pipline to Tabletop Simulator (using "release" image URLs).
