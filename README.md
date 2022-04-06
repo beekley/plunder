@@ -38,3 +38,5 @@ rake
 ```
 
 If you use VSCode, you can install the "Run on Save" extension to build cards whenever you make a change to a file.
+
+\[this project is IARC-exempt due to being a card game.]
